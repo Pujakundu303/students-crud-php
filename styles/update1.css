@@ -1,0 +1,32 @@
+body {
+  background-color: #fffcf2;
+}
+div {
+  background-color: #ccc5b9;
+  width: 30%;
+  margin: auto;
+  border-radius: 7px;
+  padding: 16px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 14px 8px;
+  margin: 5px;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 14px 8px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #252422;
+  color: #ffffff;
+  font-size: 20px;
+}
+input[type="submit"]:hover {
+  background-color: #403d39;
+  color: #ffffff;
+}
